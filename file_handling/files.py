@@ -3,8 +3,6 @@ class File:
         self._path = path
         self._file = None
 
-    #
-
     def _open_file(self, op):
         _open_file = open(self._path, op)
         return _open_file

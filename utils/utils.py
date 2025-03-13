@@ -36,8 +36,6 @@ def get_most_frequent_word(key_words: dict) -> tuple:
         if value > max_value:
             max_value = value
             max_key = key
-
-    #print(f"The most frequent word in the text is '{max_key} ', count: {max_value}")
     return max_key, max_value
 
 
